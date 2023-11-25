@@ -18,6 +18,9 @@
     gap: 30px;
     color: white;
 }
+.navItems p{
+    padding-top: 12px;
+}
 .cartIcon {
     color: #fff;
     height: 40px;

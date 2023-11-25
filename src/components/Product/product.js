@@ -16,9 +16,7 @@ const Product = props => {
         setStatus(isUrgent ? 'missing-urgent' : 'missing');
       };
       const handleEditClick = () => {
-        // Assume you have a modal for editing price and quantity
-        // Here, you can implement the logic to update the status based on user input
-        // For simplicity, let's assume you have separate inputs for price and quantity
+    
         const newPrice = prompt('Enter new price:');
         const newQuantity = prompt('Enter new quantity:');
     
@@ -29,7 +27,6 @@ const Product = props => {
         } else if (newQuantity) {
           setStatus('quantity updated');
         }
-        // If both newPrice and newQuantity are empty, do nothing
       };
 
     return(
