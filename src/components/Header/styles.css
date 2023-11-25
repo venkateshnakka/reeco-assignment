@@ -1,0 +1,35 @@
+.header {
+    background-color: #4bdca4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.reeco-icon {
+    width: 70px;
+    height: 70px;
+
+}
+.navItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+.cartIcon {
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+.userSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+}
+.userSection p {
+    white-space: nowrap;
+}
